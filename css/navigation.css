@@ -1,0 +1,212 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(38, 39, 39);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.navbar li {
+    float: left;
+}
+.navbar li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
+    padding: 14px 16px;
+}
+.navbar > li > a:hover{
+    background-color: rgb(139, 132, 132);
+}
+.footer {
+    position:relative;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.verksamhet {
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    
+    width: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: 30px;
+}
+.oss {
+    padding: 10px;
+    margin-left: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.huvud2 {
+    text-align: center;
+}
+
+
+.container {
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5px;
+}
+
+.faq-item {
+    background-color: rgb(38, 39, 39);
+    margin-bottom: 16px;
+    padding: 16px;
+    
+}
+.faq-link {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(38, 39, 39);
+    width: 100%;
+    display: flex;
+    padding: 16px 0;
+}
+
+.svar {
+    overflow: hidden;
+    max-height: 0;
+    position: relative;
+    background-color: rgb(38, 39, 39);
+    transition: 650ms;
+}
+
+.svar::before {
+  content: ""; 
+  position: absolute;
+  width: .6rem;
+  height: 50%;
+  background-color: red;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.svar p{
+    color: white;
+    font-size: 25px;
+    padding: 32px;
+}
+
+.faq-item:target .svar{
+    max-height: 320px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid rgb(255, 252, 252);
+     
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .form {
+    border-radius: 5px;
+    background-color: #575353;
+    padding: 20px;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.salja {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19.2px;
+}
+
+.social {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 19.2px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+
+.service {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 19.2px;
+    margin: 10px;
+}
+
+.box {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    padding: 10px;
+}
+
+.servicebild {
+    float: right;
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.medier {
+    margin-left: 10px;
+}
+
+.hem {
+    font-size: 19.2px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+}
+
+.stycke {
+    font-size: 25.6px;
+    font-family: monospace;
+    margin: 10px;
+}
+
+.bilbilder img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin: 40px;
+    
+}
+
+.bilbilder {
+    margin-left: 30px;
+}
+
